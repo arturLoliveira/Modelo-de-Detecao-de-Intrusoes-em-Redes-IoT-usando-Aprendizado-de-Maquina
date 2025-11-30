@@ -1,0 +1,25 @@
+RELATORIO DE PERFORMANCE - ToN-IoT (SVM Linear)
+============================================================
+
+Tempo de Treinamento: 483.0229s
+Tempo de Inferência:  0.0906s
+
+Métricas de Teste:
+  Acurácia:  0.9533
+  Precision: 0.9511
+  Recall:    0.9897
+  F1-Score:  0.9700
+
+Overfitting Check:
+  Gap Treino-Teste: 0.0007
+  Status: OK
+
+Classification Report Detalhado:
+              precision    recall  f1-score   support
+
+      Normal       0.96      0.84      0.89      7500
+      Attack       0.95      0.99      0.97     24157
+
+    accuracy                           0.95     31657
+   macro avg       0.96      0.91      0.93     31657
+weighted avg       0.95      0.95      0.95     31657

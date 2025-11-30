@@ -1,0 +1,26 @@
+RELATORIO DE PERFORMANCE - ToN-IoT (LightGBM)
+============================================================
+
+Tempo de Treinamento: 1.3932s
+Tempo de Inferência:  0.1231s
+
+Métricas Finais:
+  Acurácia:  0.9983
+  Precision: 0.9985
+  Recall:    0.9993
+  F1-Score:  0.9989
+
+Overfitting Check:
+  Treino Acc: 0.9989
+  Teste Acc:  0.9983
+  Gap:        0.0006
+
+Classification Report Detalhado:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      7500
+      Attack       1.00      1.00      1.00     24157
+
+    accuracy                           1.00     31657
+   macro avg       1.00      1.00      1.00     31657
+weighted avg       1.00      1.00      1.00     31657

@@ -1,0 +1,25 @@
+RELATORIO DE PERFORMANCE - UNSW-NB15 (LightGBM)
+============================================================
+
+Tempo de Treinamento: 2.9186s
+Tempo de Inferência:  0.2705s
+
+Métricas de Teste:
+  Acurácia:  0.8772
+  Precision: 0.8255
+  Recall:    0.9852
+  F1-Score:  0.8984
+
+Overfitting Check:
+  Gap Treino-Teste: 0.0880
+  Status: ALERTA
+
+Classification Report Detalhado:
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.74      0.85     37000
+      Attack       0.83      0.99      0.90     45332
+
+    accuracy                           0.88     82332
+   macro avg       0.90      0.87      0.87     82332
+weighted avg       0.89      0.88      0.87     82332
